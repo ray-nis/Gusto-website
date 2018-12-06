@@ -1,0 +1,522 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Open Sans;
+}
+
+/* Header */
+
+#menu-icon {
+    color: #fff;
+    display: none;
+}
+
+.header {
+    background-image: url(img/annie-spratt-96532-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.title-header {
+    font-size: 150px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 250px;
+    font-family: Rochester, cursive;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+#nav-co {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.nav-header ul {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-header ul li a:hover {
+    color: #DC143C;
+}
+
+/* Our specials Section */
+
+.specials h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 250;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 70px;
+    margin-top: 70px;
+}
+
+.specials-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.specials-container div {
+    max-width: 30%;
+    text-align: center;
+}
+
+.specials-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.specials-container h3 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.specials-container p {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+/* Our Story Section */
+
+.story {
+    display: flex;
+    max-width: 90%;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.story img {
+    width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.story div {
+    width: 30%;
+}
+
+.story div h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 250;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 70px;
+}
+
+.story div p {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+/* Menu */
+
+#menu1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#menu2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#menu {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 250;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 70px;
+    margin-top: 140px;
+}
+
+.menu {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-type {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.menu-items {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-items-title {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    padding-bottom: 8px;
+    text-align: left;
+    width: 70%;
+}
+
+.menu-items-descp {
+    max-width: 70%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 150;
+    letter-spacing: 0.1px;
+}
+
+.menu-price {
+    align-self: flex-end;
+    font-weight: 150;
+}
+
+.img-strip {
+    max-width: 100%;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.img-strip img {
+    width: 25%;
+    height: 200px;
+}
+
+/* Contact */
+
+.contact {
+    background: #40403D;
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    padding-top: 50px;
+}
+
+.contact-container div {
+    width: 33.333%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:#D3D3D3;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 150;
+    text-transform: uppercase;
+}
+
+.contact-desp {
+    font-size: 16px;
+    font-weight: 120;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 200px) and (max-width : 600px) {
+    
+    /* Header */
+
+    .header {
+        background-image: url(img/annie-spratt-96532-unsplash-min.jpg);
+    }
+
+    #menu-icon {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+        background-color: #40403D;
+    }
+
+    .nav-header {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .nav-header ul {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .none {
+        display: none !important;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        height: 200px;
+        background-color: #40403D;
+    }
+
+    .title-header {
+        padding-top: 250px;
+        font-size: 150px;
+    }
+
+    /* Our specials Section */
+
+    .specials-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .specials-container div {
+        max-width: 80%;
+        padding-bottom: 70px;
+    }
+
+    /* Our Story Section */
+
+    .story {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: space-between;
+        margin-top: 150px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .story div {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .story div p {
+        text-align: center;
+    }
+
+    .story div h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .story img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Menu */
+
+    .menu {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    #menu1 {
+        flex-direction: column;
+    }
+
+    #menu2 {
+        flex-direction: column;
+    }
+
+    .menu-items {
+        width: 80%;
+    }
+
+    .menu-type {
+        margin-top: 30px;
+    }
+
+    .img-strip {
+        flex-wrap: wrap;
+    }
+
+    .img-strip img {
+        width: 50%;
+        height: auto;
+        max-height: 120px;
+        align-self: center;
+    }
+
+    /* Contact */
+
+    .contact {
+        height: 700px;
+    }
+
+    .contact-container {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        padding-top: 50px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .contact-container div {
+        width: 100%;
+        height: 100px;;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color:#D3D3D3;
+    }
+
+}
